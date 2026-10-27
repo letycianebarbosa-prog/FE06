@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f5f0;
+    font-family: Arial, Verdana, sans-serif;
+    color: #1f2937;
+    padding: 24px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #0d9488;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #0f172a;
+    padding: 12px 16px;
+    border-radius: 6px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Oculta visualmente o caractere | mantendo a estrutura HTML inalterada */
+  nav {
+    font-size: 0;
+  }
+  
+  nav a {
+    font-size: 1rem;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #d1d5db;
+    margin: 24px 0;
+  }
+  
+  h2 {
+    color: #0d9488;
+    margin-top: 32px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e2e8f0;
+  }
+  
+  form {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 420px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  button[type="submit"] {
+    background-color: #0d9488;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0f766e;
+  }
